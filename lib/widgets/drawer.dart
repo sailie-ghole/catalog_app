@@ -7,7 +7,7 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final imageUrl =
-       "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2FC4D03AQHuvrh4NBYxtQ%2Fprofile-displayphoto-shrink_800_800%2F0%2F1658852977097%3Fe%3D2147483647%26v%3Dbeta%26t%3DoKyGDTISyD28mP19UKFNobWn1scI8ru5Mp_4n2z4VNw&tbnid=7xI59AjOXWKCSM&vet=12ahUKEwiIwIfgys3_AhVl2XMBHbi8AKgQMygEegUIARC7AQ..i&imgrefurl=https%3A%2F%2Fin.linkedin.com%2Fin%2Fsailie-ghole-b3737722a%3Ftrk%3Dpublic_profile_browsemap&docid=EjZUdLRkWgSpIM&w=800&h=800&q=sailie&ved=2ahUKEwiIwIfgys3_AhVl2XMBHbi8AKgQMygEegUIARC7AQ";
+       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgZX2sv_juHu_t-gZrYZwV2um0fcrbVu_0w&usqp=CAU";
     return Drawer(
       child: Container(
         color: Colors.deepPurple,
@@ -19,7 +19,7 @@ class MyDrawer extends StatelessWidget {
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
                 accountName: Text("Sailie Ghole"),
-                accountEmail: Text("gholesailie@gmaul.com"),
+                accountEmail: Text("gholesailie@gmail.com"),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imageUrl),
                   ),
