@@ -1,3 +1,4 @@
+import 'package:catalog_app/widgets/themes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -10,7 +11,7 @@ class MyDrawer extends StatelessWidget {
        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUgZX2sv_juHu_t-gZrYZwV2um0fcrbVu_0w&usqp=CAU";
     return Drawer(
       child: Container(
-        color: Colors.deepPurple,
+        color:MyTheme.creamColor,
         child: ListView(
           //padding: EdgeInsets.zero,
           children: [
@@ -28,39 +29,39 @@ class MyDrawer extends StatelessWidget {
               ListTile(
                 leading: Icon(
                   CupertinoIcons.home, 
-                  color: Colors.white,
+                  color: MyTheme.darkBluishColor,
                   ),
                   title: Text(
                     "Home",
                     textScaleFactor: 1.2,
                     style: TextStyle(
-                      color: Colors.white,
+                      color: MyTheme.darkBluishColor
                     ),
                   )
               ),
               ListTile(
                 leading: Icon(
                   CupertinoIcons.profile_circled, 
-                  color: Colors.white,
+                  color:MyTheme.darkBluishColor
                   ),
                   title: Text(
                     "Profile",
                     textScaleFactor: 1.2,
                     style: TextStyle(
-                      color: Colors.white,
+                      color: MyTheme.darkBluishColor
                     ),
                   )
               ),
               ListTile(
                 leading: Icon(
                   CupertinoIcons.mail, 
-                  color: Colors.white,
+                  color: MyTheme.darkBluishColor
                   ),
                   title: Text(
                     "Email me",
                     textScaleFactor: 1.2,
                     style: TextStyle(
-                      color: Colors.white,
+                      color: MyTheme.darkBluishColor
                     ),
                   )
               )
